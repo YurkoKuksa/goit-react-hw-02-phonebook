@@ -69,7 +69,7 @@ export class App extends Component {
           onChange={this.handleChangeFilterName}
           filter={this.state.filter}
         />
-        <></>
+
         <ContactsList
           filterNames={filterNames}
           onDeleteUser={this.handleDelete}
